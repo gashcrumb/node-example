@@ -1,5 +1,4 @@
 ---
-pipeline: "workflows/maven/Install/Jenkinsfile"
 buildName: "node-example"
 codeReview: false
 links:
