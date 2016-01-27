@@ -7,3 +7,4 @@ links:
   Staging: "http://fabric8.vagrant.f8/kubernetes/pods?namespace=node-example-staging"
 environments:
 useLocalFlow: true
+
