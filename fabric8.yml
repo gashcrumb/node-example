@@ -6,6 +6,4 @@ links:
   Production: "http://fabric8.vagrant.f8/kubernetes/pods?namespace=node-example-production"
   Staging: "http://fabric8.vagrant.f8/kubernetes/pods?namespace=node-example-staging"
 environments:
-  Staging: "node-example-staging"
-  Production: "node-example-production"
 useLocalFlow: true
