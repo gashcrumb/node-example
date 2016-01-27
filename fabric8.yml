@@ -9,3 +9,4 @@ links:
 environments:
   Staging: "node-example-staging"
   Production: "node-example-production"
+useLocalFlow: true
