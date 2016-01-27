@@ -1,5 +1,4 @@
 ---
-pipeline: "workflows/node/CanaryReleaseStageAndApprovePromote/Jenkinsfile"
 buildName: "node-example"
 codeReview: false
 links:
