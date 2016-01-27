@@ -1,0 +1,11 @@
+---
+pipeline: "workflows/node/CanaryReleaseStageAndApprovePromote/Jenkinsfile"
+buildName: "node-example"
+codeReview: false
+links:
+  Job: "http://jenkins.vagrant.f8/job/node-example"
+  Production: "http://fabric8.vagrant.f8/kubernetes/pods?namespace=node-example-production"
+  Staging: "http://fabric8.vagrant.f8/kubernetes/pods?namespace=node-example-staging"
+environments:
+  Staging: "node-example-staging"
+  Production: "node-example-production"
