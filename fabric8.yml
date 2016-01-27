@@ -1,0 +1,10 @@
+---
+pipeline: "workflows/maven/Install/Jenkinsfile"
+buildName: "node-example"
+codeReview: false
+links:
+  Current: "http://fabric8.vagrant.f8/kubernetes/pods?namespace=default"
+  Job: "http://jenkins.vagrant.f8/job/node-example"
+environments:
+  Current: "default"
+useLocalFlow: true
